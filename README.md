@@ -3,30 +3,26 @@
 ## Тема: Shared Preferences
 
 
-### Цель работы: реализовать передачу данных между экранами, реализовать передачу данных через параметр arguments и сохранение данных в SharedPrefrences и реализовать восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет то открыть 1 экран. Так же реализовать восстановление темы приложения.
-
+### Цель работы: реализовать передачу данных между экранами, реализовать передачу данных через параметр arguments и сохранение данных в SharedPrefrences и реализовать восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет, то открыть 1 экран. 
 ### Ход работы:
-![image](https://user-images.githubusercontent.com/114491231/208088433-227afb50-6662-4e1e-aa47-b0633668a460.png)
-Инициализация программы и переменных
 
-![image](https://user-images.githubusercontent.com/114491231/208088523-186007d0-e197-4572-ab0c-b49f7b8a3d74.png)
-Инициализация, сохранения, восстановления и удаления shared preferences
+Окно сколько раз нажат счетчик 
+![image](https://user-images.githubusercontent.com/80156409/208093144-facf9f67-7c2d-4388-a569-27f71dd669cc.png)
 
-![image](https://user-images.githubusercontent.com/114491231/208088558-b7a17d31-f073-42fa-b613-f244270a202a.png)
-Кнопка перехода на новое окно и всплывающее окно
+Кнопки перехода в окно, добавление счета и обнуление сохраненного счета
+![image](https://user-images.githubusercontent.com/80156409/208093317-64ecb5f7-7564-4dcd-a16e-dd0c81709338.png)
 
-![image](https://user-images.githubusercontent.com/114491231/208088589-7ab7eaa5-5b98-4e8d-8af7-fa688a5a6bec.png)
-Кнопка смены темы и кнопка удаления сохраненных данных
+Предупреждение о нажатии ввода данных хотя-бы 1 раз
+![image](https://user-images.githubusercontent.com/80156409/208093399-82a14dc6-c133-4914-8e62-29e102e2b253.png)
 
-![image](https://user-images.githubusercontent.com/114491231/208088614-6b589416-1218-4870-b1fd-67aff10b6ec8.png)
-Второй экран
+Код программы:
+![image](https://user-images.githubusercontent.com/80156409/208093460-2d89d489-275c-466d-9483-dfc819732b03.png)
 
-![image](https://user-images.githubusercontent.com/114491231/208088638-04adca5b-991a-471f-a75b-3de4f7118d4b.png)
-Результат работы программы
+Результат работы:
+![image](https://user-images.githubusercontent.com/80156409/208093535-8e799373-1e87-444f-9839-49fd39c1f677.png)
 
-![image](https://user-images.githubusercontent.com/114491231/208088674-7654be96-75cb-4137-be4e-390935d7b365.png)
-Результат работы программы
-
+Вывод в отдельное окно
+![image](https://user-images.githubusercontent.com/80156409/208093588-d50dbd65-6693-41ac-af7a-ae8197572864.png)
 
 Вывод: реализовали передачу данных между экранами, реализовали передачу данных через параметр arguments и сохранение данных в SharedPrefrences и реализовали восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет то открыть 1 экран. Так же реализовать восстановление темы приложения.
 
